@@ -9,11 +9,16 @@ public class PilotTests {
 
     @Before
     public void before() {
-        pilot = new Pilot("Maverick");
+        pilot = new Pilot("Maverick", "0001M");
     }
 
     @Test
     public void hasName(){
         assertEquals("Maverick", pilot.getName());
+    }
+
+    @Test
+    public void pilotHasLicenseNumber(){
+        assertEquals("0001M", pilot.getLicenseNumber());
     }
 }
