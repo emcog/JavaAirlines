@@ -1,18 +1,12 @@
-public class Pilot extends Person {
+public class Pilot extends CrewMember {
 
-//    private String name;
     private String licenseNumber;
 
 //    constructor
     public Pilot(String name, String licenseNumber){
-
         super(name);
-//        this.name = name;
+        this.licenseNumber = licenseNumber;
     }
-
-//    public String getName(){
-//        return this.name;
-//    }
 
     public String getLicenseNumber(){
         return this.licenseNumber;

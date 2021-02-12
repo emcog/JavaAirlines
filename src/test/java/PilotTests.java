@@ -32,5 +32,10 @@ public class PilotTests {
         assertEquals("Flaps are down fasten your seat belts please", pilot.land());
     }
 
+    @Test
+    public void canMakeAnnouncement(){
+        assertEquals("Fasten your seat belts please", pilot.makeAnnouncement("Fasten your seat belts please"));
+    }
+
 
 }
