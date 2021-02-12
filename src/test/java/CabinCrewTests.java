@@ -7,8 +7,7 @@ public class CabinCrewTests {
 
     @Before
     public void before(){
-        cabinCrew = new CabinCrew("Bruce"){
-        }
+        cabinCrew = new CabinCrew("Bruce");
     }
 
     @Test
