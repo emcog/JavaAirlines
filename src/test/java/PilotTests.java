@@ -21,4 +21,16 @@ public class PilotTests {
     public void pilotHasLicenseNumber(){
         assertEquals("0001M", pilot.getLicenseNumber());
     }
+
+    @Test
+    public void pilotCanTakeOff(){
+        assertEquals("Engines are burning, wheel are turning", pilot.takeOff());
+    }
+
+    @Test
+    public void pilotCanLand(){
+        assertEquals("Flaps are down fasten your seat belts please", pilot.land());
+    }
+
+
 }
