@@ -1,3 +1,5 @@
+import crew.CrewType;
+import crew.Pilot;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -39,7 +41,7 @@ public class PilotTests {
 
 //    @Test
 //    public void crewHasRank(){
-//        assertEquals("Captain", pilot.CrewType.CAPTAIN);
+//        assertEquals("Captain", pilot.crew.CrewType.CAPTAIN);
 //    }
 
 

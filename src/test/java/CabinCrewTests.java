@@ -1,14 +1,14 @@
 import org.junit.Before;
 import org.junit.Test;
-//import CrewType;
+//import crew.CrewType;
 
 //public class CabinCrewTests {
 
-//    CabinCrew cabinCrew;
+//    crew.CabinCrew cabinCrew;
 
 //    @Before
 //    public void before()
-//        cabinCrew = new CabinCrew("Bruce", CrewType. );
+//        cabinCrew = new crew.CabinCrew("Bruce", crew.CrewType. );
 //    }
 
 //    @Test

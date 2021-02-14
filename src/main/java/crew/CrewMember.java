@@ -1,3 +1,7 @@
+package crew;
+
+import person.Person;
+
 public abstract class CrewMember extends Person {
 
     private String name;

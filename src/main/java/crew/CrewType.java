@@ -1,3 +1,5 @@
+package crew;
+
 public enum CrewType {
     CAPTAIN("Captain"),
     FIRSTOFFICER("First Officer"),
