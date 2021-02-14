@@ -20,7 +20,7 @@ public class PassengerTests {
     }
 
     @Test
-    public void setPassengerHasBags(){
-        assertEquals(2, passenger.getBags());
+    public void getPassengerBagCount(){
+        assertEquals(2, passenger.getPassengerBagCount());
     }
 }

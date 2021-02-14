@@ -11,7 +11,7 @@ public class Passenger extends Person {
         this.bags = bags;
     }
 
-    public int getBags(){
+    public int getPassengerBagCount(){
         return this.bags;
     }
 }

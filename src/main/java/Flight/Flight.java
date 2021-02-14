@@ -13,6 +13,7 @@ public class Flight {
     private ArrayList<FlightDeck> flightDeckMembers;
     private ArrayList<CabinCrew> cabinCrewMembers;
     private ArrayList<Passenger> passengers;
+    private int totalBags;
 
 
     public Flight(String dept, String dest) {
@@ -36,14 +37,28 @@ public class Flight {
         this.flightDeckMembers.add(flightDeck);
     }
 
-
     public void addCabinCrewMembers(CabinCrew cabinCrew) {
         this.cabinCrewMembers.add(cabinCrew);
         System.out.println(cabinCrewMembers.get(0).getName());
     }
 
-    public void addPassengers(Passenger passenger) {
+    public void addPassenger(Passenger passenger) {
         this.passengers.add(passenger);
+    }
+
+
+    public int getPassengerCount() {
+        return this.passengers.size();
+    }
+
+
+    public int getFlightBagCount(){
+
+        for(Passenger passenger : passengers  ) {
+            totalBags += passenger.getPassengerBagCount();
+        }
+
+        return totalBags;
     }
 
 }

@@ -1,3 +1,4 @@
+import crew.CabinCrew;
 import org.junit.Before;
 import org.junit.Test;
 import crew.CrewType;
@@ -7,6 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class CabinCrewTests {
 
     crew.CabinCrew cabinCrew;
+
 
     @Before
     public void before(){
