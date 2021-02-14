@@ -1,17 +1,17 @@
 import crew.CrewType;
-import crew.Pilot;
+import crew.FlightDeck;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class PilotTests {
+public class FlightDeckTests {
 
-    Pilot pilot;
+    FlightDeck pilot;
 
     @Before
     public void before() {
-        pilot = new Pilot("Maverick", "0001M", CrewType.CAPTAIN);
+        pilot = new FlightDeck("Maverick", "0001M", CrewType.CAPTAIN);
     }
 
     @Test
@@ -39,10 +39,10 @@ public class PilotTests {
         assertEquals("Fasten your seat belts please", pilot.makeAnnouncement("Fasten your seat belts please"));
     }
 
-//    @Test
-//    public void crewHasRank(){
-//        assertEquals("Captain", pilot.crew.CrewType.CAPTAIN);
-//    }
+    @Test
+    public void crewHasRank(){
+        assertEquals("Captain", CrewType.CAPTAIN.getRank());
+    }
 
 
 }

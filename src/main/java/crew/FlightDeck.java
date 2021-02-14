@@ -5,12 +5,12 @@ import crew.CrewType;
 
 
 
-public class Pilot extends CrewMember {
+public class FlightDeck extends CrewMember {
 
     private String licenseNumber;
 
 //    constructor
-    public Pilot(String name, String licenseNumber, CrewType crewType){
+    public FlightDeck(String name, String licenseNumber, CrewType crewType){
         super(name, crewType);
         this.licenseNumber = licenseNumber;
     }

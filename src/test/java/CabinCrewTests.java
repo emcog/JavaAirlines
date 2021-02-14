@@ -1,15 +1,23 @@
 import org.junit.Before;
 import org.junit.Test;
-//import crew.CrewType;
+import crew.CrewType;
 
-//public class CabinCrewTests {
+import static org.junit.Assert.assertEquals;
 
-//    crew.CabinCrew cabinCrew;
+public class CabinCrewTests {
 
-//    @Before
-//    public void before()
-//        cabinCrew = new crew.CabinCrew("Bruce", crew.CrewType. );
-//    }
+    crew.CabinCrew cabinCrew;
+
+    @Before
+    public void before(){
+        cabinCrew = new crew.CabinCrew("Bruce", CrewType.FLIGHTATTENDANT );
+    }
+
+    @Test
+    public void cabinCrewHasRank(){
+        assertEquals("Flight Attendant", CrewType.FLIGHTATTENDANT.getRank());
+    }
+}
 
 //    @Test
 //    public void crewCanMakeAnnouncement(){
