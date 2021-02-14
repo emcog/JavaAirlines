@@ -21,5 +21,10 @@ public class PlaneTests {
         assertEquals("737", PlaneModelType.B737.getModelType());
     }
 
+    @Test
+    public void planeHasSeats(){
+        assertEquals(100, PlaneModelType.B737.getNumberOfSeats());
+    }
+
 
 }
