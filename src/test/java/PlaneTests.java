@@ -1,5 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
+import plane.Plane;
+
+import static org.junit.Assert.assertEquals;
 
 public class PlaneTests {
 
@@ -13,6 +16,6 @@ public class PlaneTests {
 
     @Test
     public void paneHasNumber(){
-        assertEquals("747", plane.getPlaneType);
+        assertEquals("747", plane.getPlaneType());
     }
 }
