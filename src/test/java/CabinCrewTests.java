@@ -17,10 +17,14 @@ public class CabinCrewTests {
     public void cabinCrewHasRank(){
         assertEquals("Flight Attendant", CrewType.FLIGHTATTENDANT.getRank());
     }
-}
 
-//    @Test
-//    public void crewCanMakeAnnouncement(){
-//    assertEquals("Ladies and gentlemen, dinner is served", crew.announcement());
-//    }
-//}
+    @Test
+    public void cabinCrewHasName(){
+        assertEquals("Bruce", cabinCrew.getName());
+    }
+
+    @Test
+    public void crewCanMakeAnnouncement(){
+    assertEquals("Ladies and gentlemen, dinner is served", cabinCrew.makeAnnouncement("Ladies and gentlemen, dinner is served"));
+    }
+}

@@ -11,7 +11,7 @@ public class FlightDeckTests {
 
     @Before
     public void before() {
-        pilot = new FlightDeck("Maverick", "0001M", CrewType.CAPTAIN);
+        pilot = new FlightDeck("Maverick", CrewType.CAPTAIN,"0001M");
     }
 
     @Test
