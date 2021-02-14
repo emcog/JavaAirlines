@@ -41,7 +41,7 @@ public class FlightTests {
         cabinCrew = new CabinCrew("Bruce", CrewType.FLIGHTATTENDANT);
         flight.addCabinCrewMembers(cabinCrew);
 //          TODO Why cant this work?
-//        assertEquals("Bruce", cabinCrewMembers.get(0).getName());
+        assertEquals("Bruce", flight.cabinCrewMembers.get(0).getName());
     }
 
 
@@ -51,7 +51,7 @@ public class FlightTests {
         flightDeck = new FlightDeck("Sandra", CrewType.CAPTAIN, "0002J" );
         flight.addFlightDeckMembers(flightDeck);
 //        TODO Why cant this work?
-//        assertEquals("Bruce", flightDeckMembers.get(0).getName());
+        assertEquals("Bruce", flight.flightDeckMembers.get(0).getName());
 
     }
 
