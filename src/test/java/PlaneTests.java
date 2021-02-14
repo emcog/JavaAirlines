@@ -12,13 +12,9 @@ public class PlaneTests {
 
     @Before
     public void before(){
-        plane = new Plane("747", PlaneModelType.B737);
+        plane = new Plane(PlaneModelType.B737);
     }
 
-    @Test
-    public void paneHasNumber(){
-        assertEquals("747", plane.getPlaneType());
-    }
 
     @Test
     public void planeHasModelType(){

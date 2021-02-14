@@ -6,8 +6,7 @@ public class Plane {
     private PlaneModelType planeModelType;
 
 //    constructor function
-    public Plane(String planeType, PlaneModelType planeModelType){
-        this.planeType = planeType;
+    public Plane(PlaneModelType planeModelType){
         this.planeModelType = planeModelType;
     }
 
