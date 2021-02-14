@@ -9,7 +9,7 @@ public class PilotTests {
 
     @Before
     public void before() {
-        pilot = new Pilot("Maverick", "0001M");
+        pilot = new Pilot("Maverick", "0001M", CrewType.CAPTAIN);
     }
 
     @Test
@@ -36,6 +36,11 @@ public class PilotTests {
     public void canMakeAnnouncement(){
         assertEquals("Fasten your seat belts please", pilot.makeAnnouncement("Fasten your seat belts please"));
     }
+
+//    @Test
+//    public void crewHasRank(){
+//        assertEquals("Captain", pilot.CrewType.CAPTAIN);
+//    }
 
 
 }

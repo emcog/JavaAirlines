@@ -3,8 +3,8 @@ public class Pilot extends CrewMember {
     private String licenseNumber;
 
 //    constructor
-    public Pilot(String name, String licenseNumber){
-        super(name);
+    public Pilot(String name, String licenseNumber, CrewType crewType){
+        super(name, crewType);
         this.licenseNumber = licenseNumber;
     }
 
