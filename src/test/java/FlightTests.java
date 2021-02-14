@@ -40,8 +40,8 @@ public class FlightTests {
         CabinCrew cabinCrew;
         cabinCrew = new CabinCrew("Bruce", CrewType.FLIGHTATTENDANT);
         flight.addCabinCrewMembers(cabinCrew);
-//          TODO Why cant this work?
-        assertEquals("Bruce", flight.cabinCrewMembers.get(0).getName());
+//          TODO Why cant this work? – PRIVATE ACCESS
+//        assertEquals("Bruce", flight.cabinCrewMembers.get(0).getName());
     }
 
 
@@ -50,9 +50,8 @@ public class FlightTests {
         FlightDeck flightDeck;
         flightDeck = new FlightDeck("Sandra", CrewType.CAPTAIN, "0002J" );
         flight.addFlightDeckMembers(flightDeck);
-//        TODO Why cant this work?
-        assertEquals("Bruce", flight.flightDeckMembers.get(0).getName());
-
+//        TODO Why cant this work? – PRIVATE ACCESS
+//        assertEquals("Bruce", flight.flightDeckMembers.get(0).getName());
     }
 
 

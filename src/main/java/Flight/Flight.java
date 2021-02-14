@@ -53,11 +53,10 @@ public class Flight {
 
 
     public int getFlightBagCount(){
-
-        for(Passenger passenger : passengers  ) {
+//    TODO fix for loop syntax
+        for(Passenger passenger:passengers  ) {
             totalBags += passenger.getPassengerBagCount();
         }
-
         return totalBags;
     }
 
