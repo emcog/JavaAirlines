@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class PassengerTest {
+public class PassengerTests {
 
     //    instance variables
     Passenger passenger;
