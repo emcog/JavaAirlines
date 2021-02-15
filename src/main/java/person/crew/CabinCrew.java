@@ -1,7 +1,4 @@
-package crew;
-
-import person.Person;
-import crew.CrewMember;
+package person.crew;
 
 public class CabinCrew extends CrewMember {
 

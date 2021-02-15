@@ -1,4 +1,4 @@
-package crew;
+package person.crew;
 
 
 public class FlightDeck extends CrewMember {

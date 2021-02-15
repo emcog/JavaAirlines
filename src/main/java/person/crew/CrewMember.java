@@ -1,4 +1,4 @@
-package crew;
+package person.crew;
 
 import person.Person;
 

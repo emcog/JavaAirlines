@@ -1,4 +1,4 @@
-package crew;
+package person.crew;
 
 public enum CrewType {
     CAPTAIN("Captain"),

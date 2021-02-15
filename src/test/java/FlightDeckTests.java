@@ -1,5 +1,5 @@
-import crew.CrewType;
-import crew.FlightDeck;
+import person.crew.CrewType;
+import person.crew.FlightDeck;
 import org.junit.Before;
 import org.junit.Test;
 

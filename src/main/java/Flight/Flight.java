@@ -1,9 +1,9 @@
 package Flight;
 
 import airports.Airport;
-import crew.CabinCrew;
-import crew.FlightDeck;
-import crew.Passenger;
+import person.crew.CabinCrew;
+import person.crew.FlightDeck;
+import person.Passenger;
 
 import java.util.ArrayList;
 

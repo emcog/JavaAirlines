@@ -1,15 +1,8 @@
 import Flight.Flight;
 import airports.Airport;
-import com.sun.xml.internal.bind.v2.TODO;
-import crew.CabinCrew;
-import crew.CrewType;
-import crew.FlightDeck;
-import crew.Passenger;
-import jdk.nashorn.api.scripting.ScriptObjectMirror;
+import person.Passenger;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
@@ -44,7 +37,7 @@ public class FlightTests {
 //        flight.addCabinCrewMembers(cabinCrew);
 ////          TODO Why cant this work? – PRIVATE ACCESS
 //        assertEquals("Bruce", flight.cabinCrewMembers.get(0).getName());
-////        possible assert equals by crew type, get total
+////        possible assert equals by person.crew type, get total
 //        assertEquals("Bruce", flight.cabinCrewMembers.get(0).getName());
 //    }
 
