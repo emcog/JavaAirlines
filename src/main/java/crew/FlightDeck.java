@@ -1,12 +1,12 @@
 package crew;
 
 
-public class Pilot extends CrewMember {
+public class FlightDeck extends CrewMember {
 
     private String licenseNumber;
 
 //    constructor
-    public Pilot(String name, String licenseNumber, CrewType crewType){
+    public FlightDeck(String name, CrewType crewType, String licenseNumber){
         super(name, crewType);
         this.licenseNumber = licenseNumber;
     }
