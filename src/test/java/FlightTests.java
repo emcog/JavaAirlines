@@ -41,7 +41,9 @@ public class FlightTests {
         cabinCrew = new CabinCrew("Bruce", CrewType.FLIGHTATTENDANT);
         flight.addCabinCrewMembers(cabinCrew);
 //          TODO Why cant this work? – PRIVATE ACCESS
-//        assertEquals("Bruce", flight.cabinCrewMembers.get(0).getName());
+        assertEquals("Bruce", flight.cabinCrewMembers.get(0).getName());
+//        possible assert equals by crew type, get total
+        assertEquals("Bruce", flight.cabinCrewMembers.get(0).getName());
     }
 
 
