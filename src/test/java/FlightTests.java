@@ -11,7 +11,7 @@ public class FlightTests {
 
     @Before
     public void before(){
-        flight = new Flight(Airport.LHR);
+        flight = new Flight(Airport.LHR, Airport.EDI);
     }
 
     @Test
@@ -19,8 +19,8 @@ public class FlightTests {
         assertEquals("London Heathrow", Airport.LHR.getAirportName());
     }
 
-//    @Test
-//    public void flightHasArrival(){
-//        assertEquals("Edinburgh", flight.getDestAirport());
-//    }
+    @Test
+    public void flightHasArrival(){
+        assertEquals("Edinburgh", Airport.EDI.getAirportName());
+    }
 }
